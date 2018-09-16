@@ -1,0 +1,53 @@
+<view class='top'>
+  <text class='money'>1000.00</text>
+  <text style='margin-bottom: 40px' class='tips'>账户余额（单位：元）</text>
+  <view class='con'>
+    <view>
+      <text class='num'>12</text>
+      <text class='tips'>浏览人数</text>
+    </view>
+    <view>
+      <text class='num'>12</text>
+      <text class='tips'>付款订单</text>
+    </view>
+    <view>
+      <text class='num'>12</text>
+      <text class='tips'>付款件数</text>
+    </view>
+  </view>
+</view>
+<view class='card'>
+  <view class='con'>
+    <view data-url='../createproject/pro_1/pro_1' bindtap='goto' class='item'>
+      <image src='../../assets/creat.png'></image>
+      <text>新建拼团</text>
+    </view>
+    <view bindtap='goto' class='item'>
+      <image src='../../assets/manage.png'></image>
+      <text>拼团管理</text>
+    </view>
+    <view data-url='../ordermanage/ordermanage' bindtap='goto' class='item'>
+      <image src='../../assets/ordermanage.png'></image>
+      <text>订单管理</text>
+    </view>
+    <view data-url='../withdraw/withdraw' bindtap='goto' class='item'>
+      <image src='../../assets/withdraw.png'></image>
+      <text>提现管理</text>
+    </view>
+  </view>
+  <view data-url='../storeinfo/storinfo' bindtap='goto' class='con'>
+    <view class='item'>
+      <image src='../../assets/setting.png'></image>
+      <text>门店设置</text>
+    </view>
+    <view bindtap='scancode' class='item'>
+      <image src='../../assets/orderdestroy.png'></image>
+      <text>订单核销</text>
+    </view>
+    <view data-url='' bindtap='goto' class='item'>
+      <image src='../../assets/rules.png'></image>
+      <text>使用规则</text>
+    </view>
+    <view class='item'></view>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+/* pages/createproject/pro_3/pro_3.wxss */
+.img{
+  width: 100%;
+  display: block;
+}
+.con{
+  padding: 15px;
+}
+.con_1{
+  display: flex;
+  justify-content: space-between;
+}
+.con_1 text{
+  display: inline-block;
+  font-size: 12px;
+  color: #666666;
+  margin-top: 15px;
+  font-family: PingFangSC-Regular;
+  margin-bottom: 40px;
+}
+.but{
+  margin: 0px 15px 10px 15px;
+  background: #999999;
+  color: #fff;
+}
+.but_h{
+  margin: 0px 15px 10px 15px;
+  background: #00bf4a;
+  color: #fff;
+}

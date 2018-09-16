@@ -1,0 +1,13 @@
+<image class='img' src='http://cdn-app.zdpvt.com/public/5ac884e54bf25d67e9197597/eba55e476984a8950fb0bd76b6758b4f.jpeg' mode='widthFix'></image>
+<view class='con'>
+  <text>天津NB舞蹈工作室年卡</text>
+  <view class='con_1'>
+    <text>拼团价：1234.00</text>
+    <text>原价：1234.00</text>
+    <text>10人成团</text>
+  </view>
+</view>
+<button open-type='share' hover-class='but_h' class='but'>邀请好友参与</button>
+<button bindtap='saveimg' hover-class='but_h' class='but'>保存图片到相册</button>
+<button bindtap='todetail' hover-class='but_h' class='but'>查看详情</button>
+<button bindtap='edit' hover-class='but_h' class='but'>编辑</button>

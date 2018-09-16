@@ -1,0 +1,43 @@
+.wrap {
+  padding: 25px 15px;
+}
+
+.line {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.line .left {
+  display: inline-block;
+}
+
+.line .right {
+  display: inline-block;
+}
+.line .right .inp{
+  max-width: 100px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.line .right .pik{
+  display: inline-block;
+  color: #999999;
+  margin-right: 4px;
+}
+.but{
+  margin: 0px 15px 0px 15px;
+  background: #00bf4a;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}

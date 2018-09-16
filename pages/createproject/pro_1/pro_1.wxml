@@ -1,0 +1,39 @@
+<view class='wrap'>
+  <view class='top'>
+    <view class='zz'>{{img1_text}}</view>
+  </view>
+  <view class='line'>
+    <text class='title'>商品标题</text>
+    <input placeholder-style='color:#333333;font-size:14px;' placeholder='请填写商品名称' class='text'></input>
+  </view>
+  <view class='line'>
+    <text class='title'>拼团类型</text>
+    <view class='text'>
+      <radio-group class='rg'>
+        <radio value='1'>
+          <text class='radio_text'>组团优惠</text>
+        </radio>
+        <radio disabled value='2'>
+          <text class='radio_text radio_text_g'>转介绍（即将开放）</text>
+        </radio>
+      </radio-group>
+    </view>
+  </view>
+  <view class='line'>
+    <text class='title'>商品库存</text>
+    <input placeholder-style='color:#333333;font-size:14px;' placeholder='请填写数量' class='text'></input>
+  </view>
+  <view style='border-bottom:0' class='line'>
+    <text class='title'>更多信息（选填）</text>
+    <view class='top'>
+      <view class='zz'>{{img2_text}}</view>
+    </view>
+    <view class='top'>
+      <view class='zz'>{{img3_text}}</view>
+    </view>
+    <view class='top'>
+      <view class='zz'>{{img4_text}}</view>
+    </view>
+  </view>
+  <button bindtap='next' class='but'>下一步</button>
+</view>

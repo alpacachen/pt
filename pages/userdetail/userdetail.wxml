@@ -1,0 +1,14 @@
+<view class='title'>
+  <text style='line-height:40px' class='left'>购买用户</text>
+  <view class='right'>
+    <image src='http://cdn-app.zdpvt.com/public/5ac884e54bf25d67e9197597/79ddcac50f684361df4d2df9174fab65.jpg'></image>
+    小墨鱼
+  </view>
+</view>
+<view class='con'>
+  <view class='line'>
+    <text class='left'>联系电话</text>
+    <view class='right'>13333333333</view>
+  </view>
+</view>
+<button bindtap='call' class='but'>联系Ta</button>

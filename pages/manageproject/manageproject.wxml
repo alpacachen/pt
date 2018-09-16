@@ -1,0 +1,23 @@
+<view class='wrap'>
+  <view class='tab'>
+    <view data-tab='1' bindtap='changetab' class="{{curr_tab===1?'active':''}}">进行中</view>
+    <view data-tab='2' bindtap='changetab' class="{{curr_tab===2?'active':''}}">已结束</view>
+  </view>
+  <view class='card'>
+    <view class='title'>
+      <text class='stat'>进行中</text>
+      <text class='time'>10小时后结束</text>
+    </view>
+    <view class='con'>
+      <image src='http://cdn-app.zdpvt.com/public/5b0fb9dec30bc06a4b3a8cb8/99a65b9004596ccb71bd4aed0a8d1d61.png'></image>
+      <view>
+        <text class='name'>天津NB舞蹈工作室</text>
+        <text class='price'><text class='unit'>¥</text>1234.00</text>
+        <view class='bottom'>
+          <text>已售：1234件</text>
+          <text>库存：1234件</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

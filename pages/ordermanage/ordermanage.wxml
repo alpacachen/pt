@@ -1,0 +1,28 @@
+<view class='wrap'>
+  <view class='tab'>
+    <view data-tab='1' bindtap='changetab' class="{{curr_tab===1?'active':''}}">进行中</view>
+    <view data-tab='2' bindtap='changetab' class="{{curr_tab===2?'active':''}}">已完成</view>
+    <view data-tab='3' bindtap='changetab' class="{{curr_tab===3?'active':''}}">已失败</view>
+  </view>
+  <view data-url='../orderdetail/orderdetail' data-id='123' bindtap='goto' class='card'>
+    <view class='title'>
+      <text class='stat'>还差3人成团（10人成团）</text>
+      <view class='user'><image src='http://cdn-app.zdpvt.com/public/5ac884e54bf25d67e9197597/79ddcac50f684361df4d2df9174fab65.jpg'></image>小墨鱼</view>
+    </view>
+    <view class='con'>
+      <image src='http://cdn-app.zdpvt.com/public/5b0fb9dec30bc06a4b3a8cb8/99a65b9004596ccb71bd4aed0a8d1d61.png'></image>
+      <view>
+        <text class='name'>天津NB舞蹈工作室</text>
+        <view class='bottom'>
+          <text>2018-9-9 10:00:00</text>
+        </view>
+      </view>
+    </view>
+    <view class='time'>距离结束还有10小时22分钟</view>
+  </view>
+  <!-- 暂无 -->
+  <!-- <view class='notfound'>
+    <image mode='widthFix' src='../../assets/notfound.png'></image>
+    <text>该栏目下暂无拼团哦哟～</text>
+  </view> -->
+</view>

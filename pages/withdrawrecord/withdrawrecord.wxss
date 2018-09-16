@@ -1,0 +1,67 @@
+/* pages/manageproject/manageproject.wxss */
+.wrap{
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+.tab{
+  background: #fff;
+  text-align: center;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+.tab>view{
+  display: inline-block;
+  margin: 7px auto;
+  padding: 7px 0;
+  font-size: 14px;
+}
+.active{
+  border-bottom: 1px solid #00ad42;
+}
+.card{
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  font-family: PingFangSC-Medium;
+  justify-content: space-between;
+  background: #fff;
+}
+.left{
+  display: inline-block;
+}
+.right{
+  display: inline-block;
+}
+.left text{
+  display: block;
+}
+.left .l1{
+  font-size: 15px;
+  color: #333;
+}
+.left .l2{
+  font-size: 12px;
+  color: #cccccc;
+  margin-top: 12px;
+}
+.right>view{
+  display: inline-block;
+  font-size: 12px;
+  padding: 0px 7px;
+}
+.green{
+  background: #00bf4a;
+  color: #ffffff;
+  border: 1px solid #00bf4a;
+}
+.white{
+  background: #ffffff;
+  color: #00bf4a;
+  border: 1px solid #00bf4a;
+}
+.red{
+  background: #ff4c4c;
+  color: #ffffff;
+  border: 1px solid #ff4c4c;
+}

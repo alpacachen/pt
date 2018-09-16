@@ -1,0 +1,31 @@
+<view style='padding-bottom:0' class='line'>
+  <text style='line-height:47px;' class='left'>提现金额</text>
+  <view class='right'><text class='num'>555.98</text></view>
+</view>
+<view class='line'>
+  <text class='left'>到账金额</text>
+  <text class='right'>¥11.03（佣金15%）</text>
+</view>
+<view class='gary'></view>
+<view class='line'>
+  <text class='left'>提现时间</text>
+  <text class='right'>2018-12-12 18:19:19</text>
+</view>
+<view class='line'>
+  <text class='left'>交易单号</text>
+  <text class='right'>1231244124</text>
+</view>
+<view class='line'>
+  <text class='left'>剩余金额</text>
+  <text class='right'>¥123124</text>
+</view>
+<view class='line'>
+  <text class='left'>状态</text>
+  <text class='right'>已到账</text>
+</view>
+<view class='line'>
+  <text class='left'>到账时间</text>
+  <text class='right'>2018-12-12 18:19:19</text>
+</view>
+<view style='margin-top:25px;' class='gary'></view>
+<text class='tips'>请联系客服处理</text>

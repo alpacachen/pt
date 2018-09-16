@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/confirmorder/confirmorder",
+    "pages/userdetail/userdetail",
+    "pages/personal/personal",
+    "pages/storeinfo/storinfo",
+    "pages/whitdrawdetail/withdrawdetail",
+    "pages/withdrawrecord/withdrawrecord",
+    "pages/ordermanage/ordermanage",
+    "pages/withdraw/withdraw",
+    "pages/makewithdraw/makewithdraw",
+    "pages/withdrawrules/withdrawrules",
+    "pages/orderdetail/orderdetail",
+    "pages/manageproject/manageproject",
+    "pages/detail/detail",
+    "pages/createproject/pro_3/pro_3",
+    "pages/createproject/pro_2/pro_2",
+    "pages/createproject/pro_1/pro_1",
+    "pages/reviewing/reviewing",
+    "pages/con_info/con_info",
+    "pages/info_suc/info_suc",
+    "pages/login/login",
+    "pages/index_1/index_1",
+    "pages/logs/logs",
+    "pages/aboutus/aboutus"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#00bf4a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/icon_1.png",
+        "selectedIconPath": "/assets/icon_1_a.png",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "/assets/icon_2.png",
+        "selectedIconPath": "/assets/icon_2_a.png",
+        "text": "新建"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "/assets/icon_3.png",
+        "selectedIconPath": "/assets/icon_3_a.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

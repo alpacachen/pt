@@ -1,0 +1,37 @@
+<view class='time'>距离结束还有10小时20分钟</view>
+<image class='banner' src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' mode='widthFix' ></image>
+<view class='con'>
+  <text>天津NB舞蹈工作室年卡</text>
+  <text class='gary'>已售1234件</text>
+</view>
+<view style='background:#fbfbfb'>
+<view style='padding:15px 0px;margin:0 15px;' class='con'>
+  <image src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' class='avatar'></image>
+  <text class='name'>天津NB舞蹈工作室</text>
+  <image class='arrow' src='../../assets/arrow.png'></image>
+</view>
+<view style='padding:15px 0px;margin:0 15px;' class='con'>
+  <text class='detail'>拼团详情</text>
+</view>
+</view>
+<view class='con_2'>
+  <image mode='widthFix' src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' ></image>
+  <image mode='widthFix' src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' ></image>
+  <image mode='widthFix' src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' ></image>
+  <image mode='widthFix' src='http://cdn-app.zdpvt.com/pulic/5b968690402b5b24725f77aa/ee1fe6bdc02d797529463b0b876f0497.jpg' ></image>
+</view>
+<view class='zw'></view>
+<view class='bot'>
+  <button open-type='share' class='share'>
+    <image src='../../assets/share.png'></image>
+    <text>分享</text>
+  </button>
+  <view class='gary_area'>
+    <text class='li'>¥1234.00</text>
+    <text class='me'>单独购买</text>
+  </view>
+  <view class='green_area'>
+    <text class='li'>¥1234.00</text>
+    <text class='me'>10人成团</text>
+  </view>
+</view>

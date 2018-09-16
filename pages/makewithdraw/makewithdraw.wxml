@@ -1,0 +1,15 @@
+<view class='wrap'>
+  <view class='con'>
+    <text class='title'>提现金额</text>
+    <view class='con_1'>
+      <view class='left'>¥<input placeholder-style='color:#c9c8cc' placeholder='请填写金额'></input></view>
+      <view class='right'><text>提现金额超限</text></view>
+    </view>
+    <view class='con_2'>
+      <text class='balance'>账户余额：1000.00</text>
+      <text class='all'>全部提现</text>
+    </view>
+  </view>
+  <button class='but'>提现</button>
+  <text class='gary'>预计3天内到您绑定的微信中</text>
+</view>

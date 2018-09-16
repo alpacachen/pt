@@ -1,0 +1,44 @@
+<view class='title'>
+  <text style='line-height:40px' class='left'>购买用户</text>
+  <view class='right'>
+    <image src='http://cdn-app.zdpvt.com/public/5ac884e54bf25d67e9197597/79ddcac50f684361df4d2df9174fab65.jpg'></image>
+    小墨鱼
+  </view>
+</view>
+<view class='con'>
+  <view class='line'>
+    <text class='left'>成交时间</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>直接购买</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>拼团价格</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>每组人数</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>拼团人数</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>订单号</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+  <view class='line'>
+    <text class='left'>订单状态</text>
+    <view class='right'>2018-9-9 18:00:22</view>
+  </view>
+</view>
+<view class='pay'>
+  <text class='left'>付款人员</text>
+  <view class='avatars'>
+    <image src='http://cdn-app.zdpvt.com/public/5ac884e54bf25d67e9197597/79ddcac50f684361df4d2df9174fab65.jpg'></image>
+  </view>
+</view>
+<button class='but'>确认到店</button>

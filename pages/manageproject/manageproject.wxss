@@ -1,0 +1,77 @@
+/* pages/manageproject/manageproject.wxss */
+.wrap{
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+.tab{
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tab>view{
+  display: inline-block;
+  margin: 7px 40px;
+  padding: 7px 0;
+  font-size: 14px;
+}
+.active{
+  border-bottom: 1px solid #00ad42;
+}
+.card{
+  margin: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #fff;
+  border-left: 2px solid #00ac42;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+}
+.stat{
+  font-size: 14px;
+  color: #00ac42;
+}
+.time{
+  font-size: 13px;
+  color: #999999;
+}
+.con{
+  margin-top: 10px;
+  display: flex;
+}
+.con image{
+  width:100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+}
+.con >view{
+  display: inline-block;
+  height: 100px;
+  position: relative;
+  width: calc( 100% - 115px );
+}
+.name{
+  display: block;
+  font-family: PingFangSC-Medium;
+}
+.price{
+  color: #ff0000;
+  margin-top: 5px;
+  display: block;
+  font-family: PingFangSC-Medium;
+}
+.unit{
+  font-size: 12px!important;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  font-size: 13px;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+}

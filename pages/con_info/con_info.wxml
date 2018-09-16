@@ -1,0 +1,47 @@
+<view class='wrap'>
+  <view class='title'>基本信息</view>
+  <view class='card_1'>
+    <view class='up_logo'>
+      <view class='left'>
+        <text class='left_1'>商家logo</text>
+        <text class='left_2'>建议尺寸1:1，小于3M</text>
+      </view>
+      <view bindtap='chooseimg' class='right'>
+        <view class='bg'></view>
+        <view class='text'>点击上传</view>
+      </view>
+    </view>
+    <view class='line'>
+      <text class='lt'>商家名称</text>
+      <input class='rt' placeholder="点击输入商家名称"></input>
+    </view>
+    <view class='line'>
+      <text class='lt'>商家行业</text>
+      <input class='rt' placeholder="点击输入商家名称"></input>
+    </view>
+    <view class='line'>
+      <text class='lt'>所在城市</text>
+      <input class='rt' placeholder="点击输入商家名称"></input>
+    </view>
+    <view style='border-bottom:0' class='line'>
+      <text class='lt'>商家地址</text>
+      <input class='rt' placeholder="输入详细地址"></input>
+    </view>
+  </view>
+  <view class='title'>店铺信息</view>
+  <view class='card_1'>
+    <view class='line'>
+      <text class='lt'>联系人</text>
+      <input class='rt' placeholder="输入姓名"></input>
+    </view>
+    <view class='line'>
+      <text class='lt'>手机号</text>
+      <input class='rt' placeholder="请输入手机号"></input>
+    </view>
+    <view style='border-bottom:0' class='line'>
+      <text class='lt'>微信号</text>
+      <input class='rt' placeholder="请输入微信号"></input>
+    </view>
+  </view>
+  <button bindtap='submit' class='but'>保存</button>
+</view>

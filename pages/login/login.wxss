@@ -1,0 +1,19 @@
+/* pages/login/login.wxss */
+.logo{
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 100px auto 30px auto;
+}
+.gary{
+  color: #999999;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 50px;
+}
+.but{
+  margin: 0 20px;
+  background: #00bf4a;
+  color: #fff;
+}

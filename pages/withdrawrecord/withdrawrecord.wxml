@@ -1,0 +1,35 @@
+<view class='wrap'>
+  <view class='tab'>
+    <view data-tab='1' bindtap='changetab' class="{{curr_tab===1?'active':''}}">全部</view>
+    <view data-tab='2' bindtap='changetab' class="{{curr_tab===2?'active':''}}">已完成</view>
+    <view data-tab='3' bindtap='changetab' class="{{curr_tab===3?'active':''}}">进行中</view>
+    <view data-tab='4' bindtap='changetab' class="{{curr_tab===4?'active':''}}">已失败</view>
+  </view>
+  <view class='card'>
+    <view class='left'>
+      <text class='l1'>发起提现2000.0元</text>
+      <text class='l2'>2018-10-10 10:10:10</text>
+    </view>
+    <view class='right'>
+      <view class='green'>已完成</view>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='left'>
+      <text class='l1'>发起提现2000.0元</text>
+      <text class='l2'>2018-10-10 10:10:10</text>
+    </view>
+    <view class='right'>
+      <view class='white'>进行中</view>
+    </view>
+  </view>
+  <view class='card'>
+    <view class='left'>
+      <text class='l1'>发起提现2000.0元</text>
+      <text class='l2'>2018-10-10 10:10:10</text>
+    </view>
+    <view class='right'>
+      <view class='red'>已失败</view>
+    </view>
+  </view>
+</view>

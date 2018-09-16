@@ -1,0 +1,22 @@
+<view class='banner'>
+  <image src='../../assets/index_bg.png'></image>
+  <view class='con'>
+    <view>
+      <view class='avatar'>
+        <image src='http://cdn-app.zdpvt.com/pulic/5b6c17dfc84d88075aa5b439/f7270c2e2e6302d597ff84570a6012af.jpg'></image>
+      </view>
+      <text class='name'>我是玉红</text>
+    </view>
+  </view>
+</view>
+<view class='card'>
+  <view bindtap='call'>
+    <image mode='widthFix' src='../../assets/conactus.png'></image>
+    <text>联系我们</text>
+  </view>
+  <view class='gap'></view>
+  <view bindtap='aboutus'>
+    <image mode='widthFix' src='../../assets/aboutus.png'></image>
+    <text>关于我们</text>
+  </view>
+</view>

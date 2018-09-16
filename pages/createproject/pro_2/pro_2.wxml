@@ -1,0 +1,28 @@
+<view class='wrap'>
+  <view class='line'>
+    <view class='left'>组团人数</view>
+    <view class='right'>
+      <input placeholder-style='font-style:14px;color:#999999;' class='inp' placeholder='请输入人数'></input>
+      人</view>
+  </view>
+  <view class='line'>
+    <view class='left'>组团时限</view>
+    <view class='right'>
+      <picker bindchange="bindDatePickerChange" class='pik' style='color:{{datecolor}}' mode='date'>{{date}}</picker>
+      <picker bindchange="bindTimePickerChange" class='pik' style='color:{{timecolor}}' mode='time'>{{time}}</picker>
+      小时</view>
+  </view>
+  <view class='line'>
+    <view class='left'>商品原价</view>
+    <view class='right'>
+      <input placeholder-style='font-style:14px;color:#999999;' class='inp' placeholder='请填写价格'></input>
+      元</view>
+  </view>
+  <view class='line'>
+    <view class='left'>拼团价格</view>
+    <view class='right'>
+      <input placeholder-style='font-style:14px;color:#999999;' class='inp' placeholder='请填写价格'></input>
+      元</view>
+  </view>
+</view>
+<button bindtap='submit' class='but'>立即提交</button>

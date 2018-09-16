@@ -1,0 +1,23 @@
+<view class='banner'>
+  <image src='../../assets/index_bg.png'></image>
+  <view class='cash'>
+    <view>
+      <text style='font-size:12px;'>可提现余额</text>
+      <text style='font-size:50px;'>1000.00</text>
+    </view>
+  </view>
+</view>
+<view class='con'>
+  <view class='line'>
+    <text>去提现</text>
+    <image src='../../assets/arrow.png'></image>
+  </view>
+  <view class='line'>
+    <text>提现记录</text>
+    <image src='../../assets/arrow.png'></image>
+  </view>
+  <view style='border:0' class='line'>
+    <text>提现规则</text>
+    <image src='../../assets/arrow.png'></image>
+  </view>
+</view>

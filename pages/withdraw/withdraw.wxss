@@ -1,0 +1,44 @@
+/* pages/withdraw/withdraw.wxss */
+.banner{
+  background: #f0f0f0;
+  padding: 15px 15px 0px 15px;
+  position: relative;
+}
+.banner image{
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 165px;
+}
+.cash{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.cash > view{
+  margin: auto;
+  color: #ffffff;
+}
+.cash > view > text{
+  display: block;
+  text-align: center;
+}
+.con{
+  padding: 0 15px;
+}
+.con .line {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  font-size: 15px;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+.con .line image{
+  height: 20px;
+  width: 12px;
+}

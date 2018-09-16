@@ -1,0 +1,3 @@
+<image class='logo' src='../../assets/success.png'></image>
+<text class='gary'>提交成功，请等待审核</text>
+<button bindtap='close' class='but'>我知道了</button>

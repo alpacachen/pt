@@ -1,0 +1,56 @@
+/* pages/storeinfo/storinfo.wxss */
+.banner{
+  position: relative;
+  margin-bottom: 35px;
+}
+.banner>image{
+  height: 150px;
+  width: 100%;
+  display: block;
+}
+.banner .name{
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+}
+.banner .name >image{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.banner .name text{
+  color: #fff;
+}
+.line{
+  padding: 15px 0;
+  margin: 0 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.line>image{
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+.line >.label{
+  color: #999999;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 35px;
+}
+.line > .ans{
+  color: #333;
+  font-size: 15px;
+}
+.but{
+  margin: 0 15px;
+  background: #00bf4a;
+  color: #fff;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}

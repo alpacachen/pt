@@ -1,0 +1,4 @@
+<image class='logo' src='../../assets/success.png'></image>
+<text class='gary'>审核中，请耐心等待</text>
+<button bindtap='call' class='but'>联系客服</button>
+<text style='font-size:12px' class='gary'>预计3个工作日内审核完毕</text>
